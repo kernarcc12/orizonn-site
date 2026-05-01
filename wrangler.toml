@@ -1,19 +1,2 @@
 name = "orizonn-site"
 compatibility_date = "2025-09-24"
-compatibility_flags = ["nodejs_compat"]
-
-[build]
-command = "npm run build"
-
-[site]
-bucket = "./dist/client"
-
-[[env]]
-name = "production"
-
-[[env.production.vars]]
-SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xd2huZm5wZXlxaHlndHBrZGprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc2MTU2NDQsImV4cCI6MjA5MzE5MTY0NH0.pakg6zaYLvBLN1mBLCiBijG97wbIOQw6sKMOlven5YU"
-SUPABASE_URL = "https://oqwhnfnpeyqhygtpkdjk.supabase.co/rest/v1/"
-VITE_SUPABASE_PROJECT_ID = "oqwhnfnpeyqhygtpkdjk"
-VITE_SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xd2huZm5wZXlxaHlndHBrZGprIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc2MTU2NDQsImV4cCI6MjA5MzE5MTY0NH0.pakg6zaYLvBLN1mBLCiBijG97wbIOQw6sKMOlven5YU"
-VITE_SUPABASE_URL = "https://oqwhnfnpeyqhygtpkdjk.supabase.co/rest/v1/"
